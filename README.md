@@ -5,7 +5,7 @@ Syftet med att automatiseringen är att det gör det går fortare och enklare at
 Jag har valt att publicera filerna på Github eftersom det verkar vara en populär och lätt användarvänlig plattform.
 
 
-***De npm paket jag använt är: 
+## De npm paket jag använt är: 
 
 gulp-uglify används för gulp, tips från föreläsning. Detta paket används för att minimera js filer.
 https://www.npmjs.com/package/gulp-uglify
@@ -20,9 +20,9 @@ Gulp-clean-css används för gulp och minimerar css
 https://www.npmjs.com/package/gulp-clean-css
 
  
-***Öppna terminalen och skriv in: 
+### Öppna terminalen och skriv in: 
 Git clone https://github.com/m-e-k-w/webb-mom2.git
-***efter det:
+### efter det:
 npm install gulp
 
 Sen använder man task deafault genom att skriva in gulp för att allt ska rulla på och uppdatera sig. CSS och JS filer minimeras och konkateneras automatiskt till pub mappen.
